@@ -14,7 +14,7 @@ jobs:
         with:
           repository: qiayuanl/booster_ros2
           token: ${{ secrets.GH_PAT }}
-          path: 'src/unitree_ros2'
+          path: 'src/booster_ros2'
       - uses: qiayuanl/ros-deb-builder-action@main
         with:
           DEB_DISTRO: jammy
