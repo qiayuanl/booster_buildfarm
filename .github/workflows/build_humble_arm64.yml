@@ -23,6 +23,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SQUASH_HISTORY: true
           SKIP_CHECKOUT: true
-          REPOS_FILE: ros2.repos
           SKIP_PACKAGES: >-
             booster_description
