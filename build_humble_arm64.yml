@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/checkout@v2
         with:
-          repository: qiayuanl/unitree_ros2
+          repository: qiayuanl/booster_ros2
           token: ${{ secrets.GH_PAT }}
           path: 'src/unitree_ros2'
       - uses: qiayuanl/ros-deb-builder-action@main
@@ -25,4 +25,4 @@ jobs:
           SKIP_CHECKOUT: true
           REPOS_FILE: ros2.repos
           SKIP_PACKAGES: >-
-            unitree_description
+            booster_description
