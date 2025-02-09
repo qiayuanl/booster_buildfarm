@@ -1,5 +1,5 @@
 repositories:
-  unitree_ros2:
+  booster_ros2:
     type: git
     url: https://github.com/qiayuanl/booster_ros2
     version: 7ec47915ea5eee61904718f56c907061ce563a73
